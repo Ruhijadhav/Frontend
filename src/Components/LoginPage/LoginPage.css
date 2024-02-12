@@ -1,0 +1,151 @@
+.loginPage{
+     background-color: #ffffff;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     height: 10em;
+}
+.roles{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-top: 2%;
+  
+}
+
+.role{
+    width: 10rem;
+    height: 3.9375rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #FFF;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.role-head{
+      font-size: 2em;
+      margin: 1em;
+}
+
+
+.role-a{
+    width: 10rem;
+    height: 1.9375rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    border:  2px solid #000;
+    margin: 1%;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: Roboto;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+
+.radios{
+    transform: scale(1.5);
+}
+
+
+.next{
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    height: 1.9375rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #ffffff;
+    margin: 1%; 
+    border-style: 2px;
+
+
+}
+.next-arrow{
+      color: rgb(0, 0, 0);
+      font-size: 25px;
+}
+
+.back-arrow{
+      color: rgb(0, 0, 0);
+      font-size: 25px;
+      margin-left: 8em;
+}
+
+.nav-btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.login-btn{
+    border:  2px solid #000;
+    background: #FFF;
+    color: #000;
+    font-size: 1em;
+    height: 30px;
+    max-width: 200px;
+    width: 100%;
+    margin: 15px;
+}
+.login-btn:hover{
+      background: #771919;
+      color: white;
+      border:  0px solid #000;
+}
+
+.adj{
+      width: 200rem;
+}
+
+.cred{
+    font-size: 12px;
+    font-weight: 500;
+    color: #2e2e2e;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    padding: 0 15px;
+    height: 42px;
+    margin: 8px 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+
+.labs{
+    color: #000000;
+    font-family: Roboto;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-repl{
+    position: relative;
+    min-height: 490px;
+    padding: 5rem;
+    background: linear-gradient(135deg, #ffffff, #ffffff);
+    overflow: hidden;
+}
